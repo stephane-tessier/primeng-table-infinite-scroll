@@ -1,0 +1,14 @@
+:host {
+  margin: 50px 200px;
+  display: block;
+}
+
+.orders-table-container {
+  height: 570px;
+}
+
+:host ::ng-deep .p-datatable {
+  .p-datatable-tbody tr {
+    height: 74px;
+  }
+}
